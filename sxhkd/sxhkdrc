@@ -125,9 +125,13 @@ super + i
 #filemanager
 super + e
 	thunar
-
+# Lang change
 Shift_L + Alt_L
 	setxkbmap ru
 Shift_R + Alt_R
 	setxkbmap us 
+
+#Logseq
+super + l
+	logseq
 
