@@ -1,13 +1,13 @@
 #!/bin/bash
-printf "Pulling configs..."
+printf "\nPulling configs...\n"
 cd /home/jaykee/Git_repos/myconfigs
 git pull
 
-printf "\nPulling learning files..."
+printf "\nPulling learning files...\n"
 cd /home/jaykee/Git_repos/learning
 git pull
 
-printf "\nPulling obsidian..."
+printf "\nPulling obsidian...\n"
 cd /home/jaykee/Git_repos/obsidian
 git pull
 

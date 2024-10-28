@@ -9,24 +9,24 @@ cp -r /home/jaykee/.config/sxhkd /home/jaykee/Git_repos/myconfigs
 cp -r /home/jaykee/.config/Thunar /home/jaykee/Git_repos/myconfigs
 
 
-printf "Commiting configs...\n"
+printf "\nCommiting configs...\n"
 
 cd /home/jaykee/Git_repos/myconfigs
 git add -A
 git commit -am "$(date)"
 git push
 
-printf "Commiting learning files...\n"
+printf "\nCommiting learning files...\n"
 
 cd /home/jaykee/Git_repos/learning
 git add -A
 git commit -am "$(date)"
 git push
 
-printf "Commiting obsidian...\n"
+printf "\nCommiting obsidian...\n"
 
 cd /home/jaykee/Git_repos/obsidian
 git add -A
 git commit -am "$(date)"
 
-printf "Done!\n"
+printf "\nDone!\n"
