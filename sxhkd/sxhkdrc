@@ -132,6 +132,6 @@ Shift_R + Alt_R
 	setxkbmap us 
 
 #Logseq
-super + l
+super + v 
 	logseq
 
