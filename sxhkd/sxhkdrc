@@ -131,7 +131,7 @@ Shift_L + Alt_L
 Shift_R + Alt_R
 	setxkbmap us 
 
-#Logseq
+#Obsidian
 super + v 
-	logseq
+	obsidian
 
